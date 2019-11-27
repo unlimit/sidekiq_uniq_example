@@ -16,7 +16,7 @@ Execute following code:
       'args' => [1]
     )`
 
-Check http://localhost:3000/sidekiq/unique_digests, you will that lock wasn't removed!
+Check http://localhost:3000/sidekiq/unique_digests, you will see that lock wasn't removed!
 
 Next clean uniq digests manually via Web UI and execute
 
@@ -26,4 +26,4 @@ Next clean uniq digests manually via Web UI and execute
       'args' => [1]
     )`
 
-Check http://localhost:3000/sidekiq/unique_digests, you will that lock was removed!
+Check http://localhost:3000/sidekiq/unique_digests, you will see that lock was removed!
